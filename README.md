@@ -21,10 +21,7 @@ This project demonstrates **clean code structure**, **incremental static regener
 ✅ Fetch attractions list from **Strapi REST API**  
 ✅ Dynamic attraction detail pages using **slug**  
 ✅ Uses **Incremental Static Regeneration (ISR)**  
-✅ Handles **missing images** with a default fallback  
-✅ Includes **loading states** and **error handling**  
-✅ Environment variables for cleaner configuration  
-✅ Clean and maintainable code with **English comments**
+✅ Handles **missing images** with a default fallback
 
 ---
 
@@ -33,8 +30,8 @@ This project demonstrates **clean code structure**, **incremental static regener
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/nextjs-strapi-test.git
-cd nextjs-strapi-test
+git clone https://github.com/kujerocoding/next15-strapi-test.git
+cd next15-strapi-test
 ```
 
 ### **2. Install Dependencies**
@@ -79,28 +76,9 @@ npm run build
 npm start
 ```
 
----
-
-## **🌍 API Endpoints**
-
-This project uses the Strapi v5 REST API:
-
-| Endpoint                                                  | Purpose                         |
-| --------------------------------------------------------- | ------------------------------- |
-| `GET /api/atrakcjes?populate=*`                           | Fetch all attractions           |
-| `GET /api/atrakcjes?filters[slug][$eq]=<slug>&populate=*` | Fetch single attraction by slug |
-
-**Example for a single attraction:**
-
-```
-https://api.expeditionlapland.com/api/atrakcjes?filters[slug][$eq]=fjords-sightseeing-and-photography-tour-autumn-winter&populate=*
-```
-
----
-
 ## **🧪 Test Instructions**
 
-This project was created as part of a paid coding test.
+This project was created as part of a coding test.
 
 - **Homepage** → Displays a link to view all attractions
 - **Attractions Page** → Lists all attractions fetched from Strapi
@@ -109,7 +87,3 @@ This project was created as part of a paid coding test.
 - Uses **Incremental Static Regeneration** for better performance
 
 ---
-
-## **📝 License**
-
-This project is for testing and educational purposes only.
